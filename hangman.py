@@ -18,7 +18,6 @@ print("Let the fun begin!")
 time.sleep(1)
 
 while True:
-    #Choosing the Secret word
     while True:
         if category.upper() == 'S':
             secretWord = random.choice(superHeroes)
